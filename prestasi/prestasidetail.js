@@ -1,3 +1,8 @@
+function toggleNav() {
+  document.getElementById('hamburger').classList.toggle('open');
+  document.getElementById('navDropdown').classList.toggle('open');
+}
+
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
@@ -23,8 +28,8 @@ if (data) {
 
   tingkatEl.classList.add(
     data.tingkat === "nasional" ? "level-nasional" :
-    data.tingkat === "internasional" ? "level-internasional" :
-    "level-provinsi"
+      data.tingkat === "internasional" ? "level-internasional" :
+        "level-provinsi"
   );
 
   // DESKRIPSI

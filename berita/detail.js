@@ -1,9 +1,9 @@
 function toggleNav() {
-      document.getElementById('hamburger').classList.toggle('open');
-      document.getElementById('navDropdown').classList.toggle('open');
-    }
+  document.getElementById('hamburger').classList.toggle('open');
+  document.getElementById('navDropdown').classList.toggle('open');
+}
 
-    
+
 // ambil ID dari URL
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");

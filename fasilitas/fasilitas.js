@@ -1,6 +1,6 @@
 function toggleNav() {
-    document.getElementById('hamburger').classList.toggle('open');
-    document.getElementById('navDropdown').classList.toggle('open');
+  document.getElementById('hamburger').classList.toggle('open');
+  document.getElementById('navDropdown').classList.toggle('open');
 }
 
 // ── Collect all facility data from grid
@@ -137,11 +137,11 @@ const facilities = [
 const TOTAL = facilities.length;
 
 // ── Lightbox elements
-const lightbox  = document.getElementById('lightbox');
+const lightbox = document.getElementById('lightbox');
 const lbImgWrap = document.getElementById('lbImgWrap');
-const lbTitle   = document.getElementById('lbTitle');
+const lbTitle = document.getElementById('lbTitle');
 const lbCounter = document.getElementById('lbCounter');
-const lbDots    = document.getElementById('lbDots');
+const lbDots = document.getElementById('lbDots');
 const lbCaption = document.getElementById('lbCaption');
 
 let isAnimating = false;
@@ -163,12 +163,12 @@ function renderImages() {
 
   lbDots.innerHTML = '';
 
-    facilities[currentFacility].images.forEach((_, i) => {
-        const dot = document.createElement('button');
-        dot.className = 'lightbox-dot' + (i === 0 ? ' active' : '');
-        dot.addEventListener('click', () => goTo(i));
-        lbDots.appendChild(dot);
-    });
+  facilities[currentFacility].images.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'lightbox-dot' + (i === 0 ? ' active' : '');
+    dot.addEventListener('click', () => goTo(i));
+    lbDots.appendChild(dot);
+  });
 }
 
 // ── Build dots
@@ -210,13 +210,13 @@ function openLightbox(index) {
 }
 
 function closeLightbox() {
-    lightbox.classList.remove('open');
-    document.body.style.overflow = '';
+  lightbox.classList.remove('open');
+  document.body.style.overflow = '';
 }
 
 // ── Card click
 cards.forEach((card, i) => {
-    card.addEventListener('click', () => openLightbox(i));
+  card.addEventListener('click', () => openLightbox(i));
 });
 
 // ── Nav buttons
@@ -227,18 +227,18 @@ document.getElementById('lbBackdrop').addEventListener('click', closeLightbox);
 
 // ── Keyboard
 document.addEventListener('keydown', e => {
-    if (!lightbox.classList.contains('open')) return;
-    if (e.key === 'ArrowRight') goTo(currentImage + 1);
-    if (e.key === 'ArrowLeft')  goTo(currentImage - 1);
-    if (e.key === 'Escape')     closeLightbox();
+  if (!lightbox.classList.contains('open')) return;
+  if (e.key === 'ArrowRight') goTo(currentImage + 1);
+  if (e.key === 'ArrowLeft') goTo(currentImage - 1);
+  if (e.key === 'Escape') closeLightbox();
 });
 
 // ── Touch/swipe support
 let touchStartX = 0;
 lbImgWrap.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
 lbImgWrap.addEventListener('touchend', e => {
-    const diff = touchStartX - e.changedTouches[0].clientX;
-    if (Math.abs(diff) > 50) {
-        goTo(diff > 0 ? currentImage + 1 : currentImage - 1);
-    }
+  const diff = touchStartX - e.changedTouches[0].clientX;
+  if (Math.abs(diff) > 50) {
+    goTo(diff > 0 ? currentImage + 1 : currentImage - 1);
+  }
 });

@@ -1,7 +1,7 @@
 const newsData = [
   {
     id: 1,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Semangat Baru Menyambut Tahun Ajaran Baru di SMA Santo Kristoforus 1",
     date: "13 Juli 2025",
     image: "img/1.jpg",
@@ -17,7 +17,7 @@ Selamat datang kembali ke sekolah, Kristoforian! Saatnya belajar, bertumbuh, dan
   },
   {
     id: 2,
-    kategori : 'acara',
+    kategori: 'acara',
     title: "Kristoforus Initiation Days (KIDS) 2025: Sambut Siswa Baru dengan Semangat Kekeluargaan",
     date: "14 - 16 Juli 2025",
     image: "img/2.jpg",
@@ -29,21 +29,21 @@ Selamat datang kembali ke sekolah, Kristoforian! Saatnya belajar, bertumbuh, dan
       <p>Suasana kegiatan berlangsung dengan penuh semangat dan antusiasme. Para siswa baru terlihat aktif berpartisipasi dalam setiap sesi, baik dalam kegiatan indoor maupun outdoor. Dukungan dari panitia, guru, serta kakak kelas turut menciptakan lingkungan yang hangat dan menyenangkan.</p>
       <p>Melalui kegiatan KIDS ini, diharapkan seluruh siswa kelas X dapat memulai perjalanan mereka di SMA Santo Kristoforus 1 dengan rasa percaya diri, semangat belajar yang tinggi, serta kesiapan untuk berkembang menjadi pribadi yang unggul dan berkarakter.</p>
       `,
-      gallery: [
-        "img/kids/_MG_3512 (2).jpg",
-        "img/kids/_MG_3650 (1).jpg",
-        "img/kids/_MG_4119 (1).jpg",
-        "img/kids/_MG_3312 (1).jpg",
-        "img/kids/_MG_3969 (1).jpg",
-        "img/kids/_MG_3883.jpg",
-        "img/kids/_MG_3933.jpg",
-        "img/kids/_MG_4244 (2).jpg",
-        
-      ]
+    gallery: [
+      "img/kids/_MG_3512 (2).jpg",
+      "img/kids/_MG_3650 (1).jpg",
+      "img/kids/_MG_4119 (1).jpg",
+      "img/kids/_MG_3312 (1).jpg",
+      "img/kids/_MG_3969 (1).jpg",
+      "img/kids/_MG_3883.jpg",
+      "img/kids/_MG_3933.jpg",
+      "img/kids/_MG_4244 (2).jpg",
+
+    ]
   },
   {
     id: 3,
-    kategori : 'acara',
+    kategori: 'acara',
     title: "Serunya DBL Roadshow di SMA Santo Kristoforus 1",
     date: "31 Juli 2025",
     image: "img/3.webp",
@@ -54,25 +54,25 @@ Selamat datang kembali ke sekolah, Kristoforian! Saatnya belajar, bertumbuh, dan
       <p>Selain itu, acara ini juga menjadi panggung perkenalan bagi tim basket putra dan putri SMA Santo Kristoforus 1, XTONE, serta tim modern dance XTANCE. Tak ketinggalan, penampilan penuh semangat dari supporter XTOPTIONS turut membakar semangat para pemain.</p>
       <p>Sebagai penutup, para siswa mendapat produk dari sponsor DBL. Acara ini bukan hanya seru-seruan biasa, tetapi juga menjadi momen yang menyatukan semangat, kebersamaan, dan rasa bangga sebagai bagian dari SMA Santo Kristoforus 1.</p>
       `,
-      gallery: [
-        "img/roadshow/_MG_4513.jpg",
-        "img/roadshow/_MG_4566.jpg",
-        "img/roadshow/_MG_4644.jpg",
-        "img/roadshow/_MG_4675.jpg",
-        "img/roadshow/_MG_4695 (1).jpg",
-        "img/roadshow/_MG_4697.jpg",
-        "img/roadshow/_MG_4788.jpg",
-        "img/roadshow/_MG_4856.jpg",
-        "img/roadshow/_MG_4863.jpg",
-        "img/roadshow/_MG_4885 (1).jpg",
-        "img/roadshow/_MG_4900.jpg",
-        "img/roadshow/_MG_4927.jpg",
-        
-      ]
+    gallery: [
+      "img/roadshow/_MG_4513.jpg",
+      "img/roadshow/_MG_4566.jpg",
+      "img/roadshow/_MG_4644.jpg",
+      "img/roadshow/_MG_4675.jpg",
+      "img/roadshow/_MG_4695 (1).jpg",
+      "img/roadshow/_MG_4697.jpg",
+      "img/roadshow/_MG_4788.jpg",
+      "img/roadshow/_MG_4856.jpg",
+      "img/roadshow/_MG_4863.jpg",
+      "img/roadshow/_MG_4885 (1).jpg",
+      "img/roadshow/_MG_4900.jpg",
+      "img/roadshow/_MG_4927.jpg",
+
+    ]
   },
   {
     id: 4,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Selamat Mengikuti Pelaksanaan ANBK 2025 SMA St. Kristoforus 1",
     date: "4 Agustus 2025",
     image: "img/4.jpg",
@@ -88,7 +88,7 @@ Sekolah Katolik Santo Kristoforus terus berupaya menciptakan lingkungan belajar 
   },
   {
     id: 5,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Peringatan Hari Pramuka di SMA Santo Kristoforus 1: “Satu Pramuka, Sejuta Aksi Nyata”",
     date: "14 Agustus 2025",
     image: "img/5.jpg",
@@ -104,7 +104,7 @@ Mari terus berkarya, beraksi, dan menjadi Pramuka yang membawa dampak nyata bagi
   },
   {
     id: 6,
-    kategori : 'acara',
+    kategori: 'acara',
     title: "SMA SANTO KRISTOFORUS 1 MERIAHKAN HUT RI KE-80 DENGAN LOMBA 17-AN PENUH SEMANGAT",
     date: "15 Agustus 2025",
     image: "img/6.jpg",
@@ -119,20 +119,20 @@ Mari terus berkarya, beraksi, dan menjadi Pramuka yang membawa dampak nyata bagi
       <p>Perayaan ini berakhir dengan pengumuman pemenang dan pembagian hadiah. Walaupun hanya beberapa yang membawa pulang hadiah, semua peserta merasa menjadi pemenang karena telah merasakan kebersamaan, keceriaan, dan semangat kemerdekaan.</p>
   `,
     gallery: [
-        "img/kemerdekaan/_MG_5448.jpg",
-        "img/kemerdekaan/_MG_5493.jpg",
-        "img/kemerdekaan/_MG_5529.jpg",
-        "img/kemerdekaan/_MG_5554.jpg",
-        "img/kemerdekaan/_MG_5651.jpg",
-        "img/kemerdekaan/_MG_5680.jpg",
-        "img/kemerdekaan/_MG_5789.jpg",
-        "img/kemerdekaan/_MG_6068.jpg",
-        
-      ]
+      "img/kemerdekaan/_MG_5448.jpg",
+      "img/kemerdekaan/_MG_5493.jpg",
+      "img/kemerdekaan/_MG_5529.jpg",
+      "img/kemerdekaan/_MG_5554.jpg",
+      "img/kemerdekaan/_MG_5651.jpg",
+      "img/kemerdekaan/_MG_5680.jpg",
+      "img/kemerdekaan/_MG_5789.jpg",
+      "img/kemerdekaan/_MG_6068.jpg",
+
+    ]
   },
   {
     id: 7,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Upacara Kemerdekaan Indonesia dalam rangka memperingati HUT RI ke-80",
     date: "17 Agustus 2025",
     image: "img/7.jpg",
@@ -146,7 +146,7 @@ Mari terus berkarya, beraksi, dan menjadi Pramuka yang membawa dampak nyata bagi
   },
   {
     id: 8,
-    kategori : 'acara',
+    kategori: 'acara',
     title: "SMA Santo Kristoforus 1 Ikuti DBL 2025, Laga Derbi Lawan Kristoforus 2 Berakhir Sengit",
     date: "17-18 Agustus 2025",
     image: "img/8.webp",
@@ -161,25 +161,25 @@ Mari terus berkarya, beraksi, dan menjadi Pramuka yang membawa dampak nyata bagi
       <p>Meski kalah tipis, tim putri Kristoforus 1 tetap mendapat apresiasi atas perjuangan mereka. Pertandingan ini menjadi bukti bahwa sportivitas dan semangat pantang menyerah lebih penting dari sekadar hasil akhir.</p>
   `,
 
-   gallery: [
-        "img/dbl/_MG_6318.jpg",
-        "img/dbl/_MG_6327 (1).jpg",
-        "img/dbl/_MG_6431.jpg",
-        "img/dbl/_MG_6504.jpg",
-        "img/dbl/_MG_6510.jpg",
-        "img/dbl/_MG_6544.jpg",
-        "img/dbl/_MG_6592.jpg",
-        "img/dbl/_MG_6600 (1).jpg",
-        "img/dbl/_MG_6698.jpg",
-        "img/dbl/_MG_6730.jpg",
-        "img/dbl/_MG_7064.jpg",
-        "img/dbl/_MG_7167 (1).jpg",
-      ]
+    gallery: [
+      "img/dbl/_MG_6318.jpg",
+      "img/dbl/_MG_6327 (1).jpg",
+      "img/dbl/_MG_6431.jpg",
+      "img/dbl/_MG_6504.jpg",
+      "img/dbl/_MG_6510.jpg",
+      "img/dbl/_MG_6544.jpg",
+      "img/dbl/_MG_6592.jpg",
+      "img/dbl/_MG_6600 (1).jpg",
+      "img/dbl/_MG_6698.jpg",
+      "img/dbl/_MG_6730.jpg",
+      "img/dbl/_MG_7064.jpg",
+      "img/dbl/_MG_7167 (1).jpg",
+    ]
   },
-  
+
   {
     id: 9,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "SMA Santo Kristoforus 1 Gelar Edu Fair 2025",
     date: "25 Agustus 2025",
     image: "img/9.jpeg",
@@ -191,10 +191,10 @@ Mari terus berkarya, beraksi, dan menjadi Pramuka yang membawa dampak nyata bagi
       <p>Antusiasme siswa terlihat dari ramainya kunjungan ke booth dan keaktifan saat sesi presentasi. Seluruh warga sekolah yang turut hadir juga menyambut baik kegiatan ini. Dengan adanya Edu Fair, diharapkan para siswa semakin yakin dan termotivasi dalam melanjutkan pendidikan tinggi sesuai minat dan bakat mereka.</p>
   `
   },
-  
+
   {
     id: 10,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Pengumuman PJJ di Sekolah Katolik Santo Kristoforus",
     date: "1 September 2025",
     image: "img/10.jpeg",
@@ -206,7 +206,7 @@ Mari terus berkarya, beraksi, dan menjadi Pramuka yang membawa dampak nyata bagi
   },
   {
     id: 11,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "KristoTik Competition 2026: Ajang Kreativitas Digital Siswa Santo Kristoforus",
     date: "1 September 2025",
     image: "img/11.jpeg",
@@ -225,7 +225,7 @@ Mari tunjukkan kreativitas terbaikmu dan jadilah bagian dari generasi hebat bers
 
   {
     id: 19,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Selamat Memasuki Bulan Kitab Suci Nasional 2025",
     date: "1 September 2025",
     image: "img/19.jpg",
@@ -241,10 +241,10 @@ Mari kita sambut BKSN 2025 dengan hati yang terbuka serta semangat untuk semakin
 </p>
 `
   },
-  
+
   {
     id: 12,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "SMA Santo Kristoforus Sampaikan Ucapan Selamat Memperingati Maulid Nabi Muhammad SAW",
     date: "4 September 2025",
     image: "img/12.jpeg",
@@ -266,7 +266,7 @@ Semoga peringatan Maulid Nabi Muhammad SAW membawa kedamaian, keberkahan, serta 
 
   {
     id: 13,
-    kategori : 'acara',
+    kategori: 'acara',
     title: " Perayaan BKSN SMA Santo Kristoforus 1 Berlangsung Meriah Penuh Sukacita",
     date: "25 September 2025",
     image: "img/13.webp",
@@ -284,21 +284,21 @@ Acara BKSN tahun ini semakin meriah dengan berbagai perlombaan yang diikuti oleh
 Seluruh rangkaian kegiatan berjalan lancar, penuh semangat, dan menjadi pengalaman berharga dalam mempererat kebersamaan serta memperdalam iman seluruh warga sekolah.
 </p>
 `,
-gallery: [
-        "img/bksn/IMG_2026 (1).jpg",  
-        "img/bksn/_MG_7511 (1).jpg",
-        "img/bksn/_MG_7611 (1).jpg",
-        "img/bksn/_MG_7720.jpg",
-        "img/bksn/_MG_8314.jpg",
-        "img/bksn/IMG_1867 (1).jpg",
-        "img/bksn/IMG_2058 (1).jpg",
-        "img/bksn/_MG_7977.jpg",
-      ]
+    gallery: [
+      "img/bksn/IMG_2026 (1).jpg",
+      "img/bksn/_MG_7511 (1).jpg",
+      "img/bksn/_MG_7611 (1).jpg",
+      "img/bksn/_MG_7720.jpg",
+      "img/bksn/_MG_8314.jpg",
+      "img/bksn/IMG_1867 (1).jpg",
+      "img/bksn/IMG_2058 (1).jpg",
+      "img/bksn/_MG_7977.jpg",
+    ]
   },
 
   {
     id: 16,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Kegiatan KLSP diikuti oleh siswa kelas 11 SMA Santo Kristoforus 1",
     date: "28 September - 4 Oktober 2025",
     image: "img/16.webp",
@@ -316,25 +316,25 @@ Kegiatan ini diikuti oleh seluruh siswa kelas 11 SMA Santo Kristoforus 1 sebagai
 Selama program berlangsung, para siswa mengikuti berbagai aktivitas menarik seperti mengenal budaya lokal, bermain gamelan, dan berinteraksi dengan warga setempat. Melalui kegiatan ini, para peserta memperoleh pengalaman berharga yang memperluas wawasan sekaligus menumbuhkan rasa empati dan kepedulian sosial terhadap sesama.
 </p>
 `,
-gallery: [
-        "img/livein/IMG_5002.jpg",  
-        "img/livein/IMG_5162.jpg",
-        "img/livein/IMG_5303.jpg",
-        "img/livein/IMG_5333.jpg",
-        "img/livein/IMG_5379 (1).jpg",
-        "img/livein/IMG_5478.jpg",
-        "img/livein/IMG_5483.jpg",
-        "img/livein/IMG_5507.jpg",
-        "img/livein/IMG_5584.jpg",
-        "img/livein/IMG_5589.jpg",
-        "img/livein/IMG_5648.jpg",
-        "img/livein/IMG_5698.jpg",
-      ]
+    gallery: [
+      "img/livein/IMG_5002.jpg",
+      "img/livein/IMG_5162.jpg",
+      "img/livein/IMG_5303.jpg",
+      "img/livein/IMG_5333.jpg",
+      "img/livein/IMG_5379 (1).jpg",
+      "img/livein/IMG_5478.jpg",
+      "img/livein/IMG_5483.jpg",
+      "img/livein/IMG_5507.jpg",
+      "img/livein/IMG_5584.jpg",
+      "img/livein/IMG_5589.jpg",
+      "img/livein/IMG_5648.jpg",
+      "img/livein/IMG_5698.jpg",
+    ]
   },
 
-   {
+  {
     id: 14,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "SMA Kristoforus 1 Gelar Perayaan Ekaristi Penutupan BKSN",
     date: "30 September 2025",
     image: "img/14.webp",
@@ -356,7 +356,7 @@ Kegiatan ini bertujuan menumbuhkan cinta akan Sabda Allah di kalangan siswa-sisw
 
   {
     id: 20,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Selamat Memperingati Hari Kesaktian Pancasila",
     date: "1 Oktober 2025",
     image: "img/20.jpg",
@@ -375,7 +375,7 @@ Mari kita jadikan Hari Kesaktian Pancasila sebagai pengingat untuk tetap menjaga
 
   {
     id: 22,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Selamat Memasuki Bulan Rosario 2025",
     date: "1 Oktober 2025",
     image: "img/22.jpg",
@@ -394,7 +394,7 @@ Mari kita jalani Bulan Rosario dengan hati yang terbuka serta semangat doa yang 
 
   {
     id: 21,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Siswa-siwi SMA Santo Kristoforus 1 Wajib Kenakan Batik pada Hari Batik Nasional",
     date: "2 Oktober 2025",
     image: "img/21.jpeg",
@@ -411,9 +411,9 @@ Demikian pengumuman ini disampaikan. Atas perhatian dan kerja sama seluruh siswa
 `
   },
 
-   {
+  {
     id: 15,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Rosario & Misa Jumat Pertama SMA Kristoforus 1",
     date: "4 Oktober 2025",
     image: "img/15.webp",
@@ -436,11 +436,11 @@ Melalui rangkaian kegiatan doa Rosario pagi dan Misa Jumat Pertama, keluarga bes
 `
   },
 
-   
 
-   {
+
+  {
     id: 17,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Siswa Kelas 10 SMA Santo Kristoforus Ikuti kegiatan Kristoforus Servant Leadership (KSL)",
     date: "15-17 Oktober 2025",
     image: "img/17.jpg",
@@ -456,24 +456,24 @@ Kegiatan KSL ini juga menjadi kesempatan bagi siswa untuk menumbuhkan rasa tangg
 </p>
 `,
     gallery: [
-        "img/livein/IMG_5002.jpg",  
-        "img/livein/IMG_5162.jpg",
-        "img/livein/IMG_5303.jpg",
-        "img/livein/IMG_5333.jpg",
-        "img/livein/IMG_5379 (1).jpg",
-        "img/livein/IMG_5478.jpg",
-        "img/livein/IMG_5483.jpg",
-        "img/livein/IMG_5507.jpg",
-        "img/livein/IMG_5584.jpg",
-        "img/livein/IMG_5589.jpg",
-        "img/livein/IMG_5648.jpg",
-        "img/livein/IMG_5698.jpg",
-      ]
+      "img/livein/IMG_5002.jpg",
+      "img/livein/IMG_5162.jpg",
+      "img/livein/IMG_5303.jpg",
+      "img/livein/IMG_5333.jpg",
+      "img/livein/IMG_5379 (1).jpg",
+      "img/livein/IMG_5478.jpg",
+      "img/livein/IMG_5483.jpg",
+      "img/livein/IMG_5507.jpg",
+      "img/livein/IMG_5584.jpg",
+      "img/livein/IMG_5589.jpg",
+      "img/livein/IMG_5648.jpg",
+      "img/livein/IMG_5698.jpg",
+    ]
   },
 
-   {
+  {
     id: 18,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "SMA Santo Kristoforus Mengadakan Upacara Bendera dalam Rangka Memperingati Hari Sumpah Pemuda",
     date: "28 Oktober 2025",
     image: "img/18.jpg",
@@ -490,9 +490,9 @@ Upacara berlangsung dengan lancar dan khidmat. Setelah kegiatan upacara, para si
 `
   },
 
-   {
+  {
     id: 23,
-    kategori : 'acara',
+    kategori: 'acara',
     title: "Lomba Memperingati Hari Pangan Sedunia & Bulan Bahasa",
     date: "29 Oktober 2025",
     image: "img/23.jpeg",
@@ -511,24 +511,24 @@ Kegiatan lomba berlangsung sampai sekitar pukul 1 siang. Setelah itu, para siswa
 Dari kegiatan ini, kita diajarkan untuk selalu menghargai makanan dan terus menggunakan bahasa Indonesia yang baik dan benar.
 </p>
 `,
-  gallery: [
-        "img/hpsbb/_MG_0089.jpg",  
-        "img/hpsbb/_MG_0235.jpg",
-        "img/hpsbb/_MG_0250.jpg",
-        "img/hpsbb/_MG_9207.jpg",
-        "img/hpsbb/IMG_9761 (1).jpg",
-        "img/hpsbb/IMG_9848.jpg",
-        "img/hpsbb/IMG_9904.jpg",
-        "img/hpsbb/IMG_9287.jpg",
-        "img/hpsbb/IMG_9311.jpg",
-        "img/hpsbb/IMG_9414.jpg",
-  
-      ]
+    gallery: [
+      "img/hpsbb/_MG_0089.jpg",
+      "img/hpsbb/_MG_0235.jpg",
+      "img/hpsbb/_MG_0250.jpg",
+      "img/hpsbb/_MG_9207.jpg",
+      "img/hpsbb/IMG_9761 (1).jpg",
+      "img/hpsbb/IMG_9848.jpg",
+      "img/hpsbb/IMG_9904.jpg",
+      "img/hpsbb/IMG_9287.jpg",
+      "img/hpsbb/IMG_9311.jpg",
+      "img/hpsbb/IMG_9414.jpg",
+
+    ]
   },
 
-   {
+  {
     id: 24,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Selamat Menempuh Tes Kemampuan Akademik SMA Santo Kristoforus 1",
     date: "3 - 4 November 2025",
     image: "img/24.jpeg",
@@ -545,9 +545,9 @@ Percayalah pada usaha dan kerja keras yang telah kalian lakukan selama ini. Hada
 `
   },
 
-   {
-    id: 25 ,
-    kategori : 'kegiatan',
+  {
+    id: 25,
+    kategori: 'kegiatan',
     title: "Upacara Bendera dalam Rangka Memperingati Hari Pahlawan Nasional",
     date: "10 November 2025",
     image: "img/25.jpeg",
@@ -564,9 +564,9 @@ Beliau juga menekankan bahwa keamanan dan kenyamanan di lingkungan sekolah merup
 `
   },
 
-   {
+  {
     id: 26,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "SMA Santo Kristoforus 1 Rayakan Hari Anak Sedunia dengan Doa Bersama",
     date: "12 November 2025",
     image: "img/26.jpeg",
@@ -580,9 +580,9 @@ Tujuan dari pelaksanaan Doa Bersama Hari Anak Sedunia ini adalah untuk menumbuhk
 `
   },
 
-   {
+  {
     id: 27,
-    kategori : 'acara',
+    kategori: 'acara',
     title: "Perayaan Hari Guru Berlangsung Hangat di SMA Santo Kristoforus 1",
     date: "25 November",
     image: "img/27.jpeg",
@@ -604,17 +604,17 @@ Perayaan Hari Guru di Santo Kristoforus 1 tahun ini menjadi momen berharga yang 
 </p>
 `,
 
-  gallery: [
-        "img/hariguru/_MG_0881.jpg",  
-        "img/hariguru/_MG_1302.jpg",
-         "img/hariguru/_MG_1214.jpg",
-        "img/hariguru/IMG_2921.jpg",
-      ]
+    gallery: [
+      "img/hariguru/_MG_0881.jpg",
+      "img/hariguru/_MG_1302.jpg",
+      "img/hariguru/_MG_1214.jpg",
+      "img/hariguru/IMG_2921.jpg",
+    ]
   },
 
-   {
+  {
     id: 28,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Selamat Menempuh Asesmen Sumatif Ganjil Siswa Siswi SMA Santo Kristoforus 1",
     date: "2 Desember 2025",
     image: "img/28.jpeg",
@@ -634,9 +634,9 @@ Tetap semangat dan sukses selalu!
 `
   },
 
-   {
+  {
     id: 29,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: " Debat OSIS SMA Santo Kristoforus 1 Menuju Pemilos Berlangsung Panas",
     date: "8 Desember 2025",
     image: "img/29.webp",
@@ -659,9 +659,9 @@ Dengan debat yang berlangsung sukses dan penuh gagasan segar, para siswa kini me
 `
   },
 
-   {
+  {
     id: 30,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Seluruh Warga SMA Santo Kristoforus Mengikuti Pemilihan Ketua dan Wakil OSIS Periode 2025/2026",
     date: "9 Desember 2025",
     image: "img/30.webp",
@@ -697,9 +697,9 @@ Hasilnya, paslon 2 memperoleh 160 suara yang merupakan suara terbanyak. Oleh kar
 </p>`
   },
 
-   {
+  {
     id: 31,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: " Kunjungan BINUS University ke SMA Santo Kristoforus 1 dalam kegiatan Career Day",
     date: "10 Desember 2025",
     image: "img/31.jpg",
@@ -720,7 +720,7 @@ Kegiatan Career Day ini diharapkan dapat membantu para siswa SMA Santosorus 1 le
 
   {
     id: 32,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Polda Metro Jaya Berikan Edukasi Bahaya Narkoba, Seks Bebas, dan Bullying di SMA Santo Kristoforus 1 ",
     date: "11 Desember 2025",
     image: "img/32.png",
@@ -738,7 +738,7 @@ Kegiatan ini diharapkan dapat membantu para siswa lebih sadar, berhati-hati, dan
 
   {
     id: 33,
-    kategori : 'acara',
+    kategori: 'acara',
     title: "Momen yang ditunggu-tunggu, Kristoforus Creativity Week Resmi Dimulai dengan Seru",
     date: "10 Desember 2025",
     image: "img/33.png",
@@ -770,30 +770,30 @@ Seluruh rangkaian kegiatan classmeeting berlangsung dengan lancar, tertib, dan p
 <p>
 Dengan berakhirnya seluruh rangkaian acara, diharapkan nilai kebersamaan, sportivitas, dan semangat positif dapat terus terjaga dalam lingkungan SMA Santo Kristoforus 1.
 </p>`,
-     gallery: [
-        "img/kcw/_MG_3178.jpg",
-        "img/kcw/_MG_3265.jpg",
-        "img/kcw/_MG_3746.jpg",
-        "img/kcw/_MG_3796.jpg",
-        "img/kcw/_MG_3997.jpg",
-        "img/kcw/_MG_4166.jpg",
-        "img/kcw/_MG_4641 (1).jpg",
-        "img/kcw/_MG_4649 (1).jpg",
-        "img/kcw/_MG_5327 (2).jpg",
-        "img/kcw/_MG_5343.jpg",
-        "img/kcw/_MG_5398 (1).jpg",
-        "img/kcw/_MG_5429 (1).jpg",
-        "img/kcw/_MG_5687 (1).jpg",
-        "img/kcw/_MG_5709.jpg",
-        "img/kcw/_MG_5778.jpg",
-        "img/kcw/_MG_5849.jpg",
-      ]
+    gallery: [
+      "img/kcw/_MG_3178.jpg",
+      "img/kcw/_MG_3265.jpg",
+      "img/kcw/_MG_3746.jpg",
+      "img/kcw/_MG_3796.jpg",
+      "img/kcw/_MG_3997.jpg",
+      "img/kcw/_MG_4166.jpg",
+      "img/kcw/_MG_4641 (1).jpg",
+      "img/kcw/_MG_4649 (1).jpg",
+      "img/kcw/_MG_5327 (2).jpg",
+      "img/kcw/_MG_5343.jpg",
+      "img/kcw/_MG_5398 (1).jpg",
+      "img/kcw/_MG_5429 (1).jpg",
+      "img/kcw/_MG_5687 (1).jpg",
+      "img/kcw/_MG_5709.jpg",
+      "img/kcw/_MG_5778.jpg",
+      "img/kcw/_MG_5849.jpg",
+    ]
 
   },
 
   {
     id: 34,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Anggota OSIS Mengikuti Workshop Latihan Kepemimpinan Tingkat Lanjut",
     date: "18 Desember 2025",
     image: "img/34.jpg",
@@ -811,12 +811,12 @@ Selain penyampaian materi, siswa juga terlibat dalam berbagai aktivitas kelompok
 Melalui kegiatan ini, diharapkan para siswa dapat mengembangkan jiwa kepemimpinan yang bertanggung jawab serta mampu menerapkan nilai-nilai positif dalam organisasi maupun kehidupan sehari-hari.
 </p>
 <p>
-Workshop ini menjadi salah satu langkah nyata SMA Santo Kristoforus 1 dalam membentuk generasi muda yang unggul, berkarakter, dan siap menjadi pemimpin di masa depan.</p>`  
-},
+Workshop ini menjadi salah satu langkah nyata SMA Santo Kristoforus 1 dalam membentuk generasi muda yang unggul, berkarakter, dan siap menjadi pemimpin di masa depan.</p>`
+  },
 
   {
     id: 35,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Keluarga Besar SMA Santo Kristoforus Mengucapkan Selamat Memperingati Hari Natal",
     date: "25 Desember 2025",
     image: "img/35.jpg",
@@ -833,11 +833,11 @@ Melalui perayaan ini, diharapkan seluruh warga sekolah dapat merasakan sukacita 
     <p>
 Semoga damai dan kasih Natal senantiasa menyertai kita semua.</p>`
 
-},
+  },
 
   {
     id: 36,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Selamat Tahun Baru 2026 bagi Seluruh Keluarga SMA Santo Kristoforus 1",
     date: "1 Januari 2026",
     image: "img/36.jpg",
@@ -858,7 +858,7 @@ Semoga tahun yang baru membawa kebahagiaan, kesuksesan, dan berkat bagi kita sem
 
   {
     id: 37,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Semangat Kembali Ke Sekolah di Semester Baru Tahun Ajaran Baru",
     date: "4 Januari 2026",
     image: "img/37.jpg",
@@ -874,12 +874,12 @@ Melalui momentum ini, diharapkan seluruh siswa dapat memanfaatkan kesempatan den
     </p>
     <p>
 Selamat kembali ke sekolah dan selamat menempuh semester baru. Semoga langkah di awal tahun ini membawa kesuksesan dan pencapaian yang membanggakan.`
-  
-},
+
+  },
 
   {
     id: 38,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Membuka Awal Tahun dengan Misa di Gereja Santo Kristoforus 1",
     date: "9 Januari 2026",
     image: "img/38.jpg",
@@ -894,9 +894,9 @@ Dalam khotbahnya, Romo Stefanus menekankan pesan penting bahwa dalam setiap hal 
 Misa berlangsung dengan tertib dan berkat koor yang membawakan lagu-lagu dengan suara yang sangat baik, sehingga suasana ibadah terasa lebih mendalam dan penuh makna.</p>`
   },
 
-   {
+  {
     id: 39,
-    kategori : 'acara',
+    kategori: 'acara',
     title: "SMA Santo Kristoforus 1 Melaksanakan Acara Natal",
     date: "13 Januari 2026",
     image: "img/39.webp",
@@ -910,19 +910,19 @@ Kegiatan ini diikuti oleh seluruh siswa, guru, dengan ini ditandai sebagai rasa 
     <p>
 Acara ditutup dengan foto bersama dan ucapan selamat Natal dan Tahun Baru, disertai harapan agar seluruh warga SMA Santo Kristoforus 1 dapat menjalani tahun yang baru dengan penuh sukacita, semangat, dan prestasi.
 </p>`,
-gallery: [
-        "img/natal/1.jpg",
-        "img/natal/2.jpg",
-        "img/natal/3.jpg",
-        "img/natal/4.jpg",
-        "img/natal/5.jpg",
-        "img/natal/6.jpg",
-      ]
+    gallery: [
+      "img/natal/1.jpg",
+      "img/natal/2.jpg",
+      "img/natal/3.jpg",
+      "img/natal/4.jpg",
+      "img/natal/5.jpg",
+      "img/natal/6.jpg",
+    ]
   },
 
-   {
+  {
     id: 40,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Selamat Memperingati Isra Miraj bagi Seluruh Umat Muslim yang Merayakan",
     date: "16 Januari 2026",
     image: "img/40.png",
@@ -940,9 +940,9 @@ Melalui peringatan ini, diharapkan semangat kebersamaan, toleransi, dan saling m
 Semoga peringatan Isra Miraj membawa kedamaian, keberkahan, dan kebaikan bagi kita semua.</p>`
   },
 
-   {
+  {
     id: 41,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Selamat Tahun Baru Imlek 2026 bagi Seluruh Warga SMA Santo Kristoforus 1 yang Merayakan",
     date: "17 Februari 2026",
     image: "img/41.png",
@@ -957,9 +957,9 @@ Semoga peringatan Isra Miraj membawa kedamaian, keberkahan, dan kebaikan bagi ki
 <p>Gong Xi Fa Cai!</p>`
   },
 
-   {
+  {
     id: 42,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Membuka Awal Tahun dengan Misa di Gereja Santo Kristoforus 1",
     date: "9 Januari 2026",
     image: "img/42.png",
@@ -974,9 +974,9 @@ Dalam homilinya, Romo mengatakan bahwa masa ini adalah waktu yang tepat untuk be
 Romo juga mengingatkan bahwa puasa bukan hanya menahan makan dan minum, tetapi juga menahan diri dari berkata kasar, menghina, dan menyakiti orang lain. Masa Prapaskah ini menjadi kesempatan bagi kita untuk menjadi pribadi yang lebih baik.</p>`
   },
 
-   {
+  {
     id: 43,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Semarak Menyambut Imlek, TK,SD,SMP,SMA Santo Kristoforus 1 Gelar Pertunjukan Barongsai Penuh Makna dan Kebersamaan",
     date: "19 Februari 2026",
     image: "img/43.png",
@@ -994,9 +994,9 @@ Selama pertunjukan berlangsung, para siswa terlihat sangat antusias, memberikan 
 Setelah pertunjukan selesai, para siswa berkesempatan untuk berfoto bersama dengan barongsai, mengabadikan momen kebersamaan yang penuh makna. Kegiatan ini menjadi salah satu pengalaman berharga yang tidak hanya memberikan kegembiraan, tetapi juga mempererat hubungan antar siswa dan guru dalam suasana yang hangat dan harmonis.</p>`
   },
 
-   {
+  {
     id: 44,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Dalam Semangat Iman, Seluruh Siswa Santo Kristoforus 1 Mengikuti Jalan Salib Pertama",
     date: " 20 Februari 2026",
     image: "img/44.png",
@@ -1013,9 +1013,9 @@ Selain itu, kegiatan ini juga menjadi bagian dari pembinaan rohani di masa Prapa
 Dengan diadakannya Ibadah Jalan Salib ini, diharapkan seluruh siswa Santo Kristoforus 1 semakin bertumbuh dalam iman, karakter, dan kasih, serta mampu menghidupi nilai-nilai Kristiani dalam setiap tindakan mereka.</p>`
   },
 
-   {
+  {
     id: 45,
-    kategori : 'acara',
+    kategori: 'acara',
     title: "Merayakan tahun baru Imlek dengan penuh kemeriahan, Seluruh Siswa SMA Santo Kristoforus 1 mengadakan perayaan imlek",
     date: "26 Februari 2026",
     image: "img/45.jpeg",
@@ -1033,22 +1033,22 @@ Kegiatan hias payung juga menjadi sorotan. Para siswa menghias payung dengan mot
 </p>
 <p>
 Perayaan Imlek ini bertujuan untuk mengenalkan keberagaman budaya kepada siswa, menumbuhkan sikap toleransi, serta mengembangkan kreativitas dan kebersamaan di lingkungan sekolah. Kegiatan berlangsung dengan tertib dan penuh kegembiraan hingga acara penutup.</p>`,
-gallery: [
-        "img/imlek/1.jpg",
-        "img/imlek/2.jpg",
-        "img/imlek/3.jpg",    
-        "img/imlek/4.jpg",
-        "img/imlek/5.jpg",
-        "img/imlek/6.jpg",
-       "img/imlek/7.jpg",
-       "img/imlek/8.jpg",
-       "img/imlek/9.jpg",
-]
+    gallery: [
+      "img/imlek/1.jpg",
+      "img/imlek/2.jpg",
+      "img/imlek/3.jpg",
+      "img/imlek/4.jpg",
+      "img/imlek/5.jpg",
+      "img/imlek/6.jpg",
+      "img/imlek/7.jpg",
+      "img/imlek/8.jpg",
+      "img/imlek/9.jpg",
+    ]
   },
 
-   {
+  {
     id: 46,
-    kategori : 'berita',
+    kategori: 'berita',
     title: "Pengumuman Pelaksanaan PJJ Berdasarkan Prakiraan Cuaca",
     date: "9 Maret 2026",
     image: "img/46.png",
@@ -1063,9 +1063,9 @@ gallery: [
 <p>Diharapkan melalui kebijakan ini, kegiatan belajar mengajar tetap dapat berjalan dengan baik tanpa mengurangi aspek keselamatan seluruh warga sekolah.</p>`
   },
 
-   {
+  {
     id: 47,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Pelantikan OSIS Periode 2026/2027 (AV 6.0)",
     date: "15 Maret 2026",
     image: "img/47.png",
@@ -1077,9 +1077,9 @@ gallery: [
 Selanjutnya, pembacaan janji OSIS dipimpin oleh Steven Chandra selaku ketua OSIS, yang diikuti seluruh anggota pengurus baru dengan penuh kesungguhan. Acara kemudian ditutup dengan serah terima jabatan dari ketua OSIS periode 2025/2026 kepada ketua OSIS periode 2026/2027 sebagai tanda dimulainya kepengurusan baru. Melalui pelantikan ini, diharapkan seluruh pengurus OSIS dapat menjalankan amanah dengan disiplin, bertanggung jawab, serta membawa semangat baru bagi perkembangan kegiatan sekolah.</p>`
   },
 
-   {
+  {
     id: 48,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Pengumuman Libur Sekolah Hari Raya Nyepi dan Idul Fitri",
     date: "15 Maret 2026",
     image: "img/48.png",
@@ -1096,9 +1096,9 @@ Selanjutnya, pembacaan janji OSIS dipimpin oleh Steven Chandra selaku ketua OSIS
 <p>Demikian pengumuman ini disampaikan. Atas perhatian dan kerja sama seluruh siswa, kami ucapkan terima kasih.</p>`
   },
 
-   {
+  {
     id: 49,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Selamat Memperingati Hari Raya Nyepi bagi Kristoforian yang Merayakan",
     date: "19 Maret 2026",
     image: "img/49.png",
@@ -1113,9 +1113,9 @@ Selanjutnya, pembacaan janji OSIS dipimpin oleh Steven Chandra selaku ketua OSIS
 <p>Semoga Hari Raya Nyepi membawa kedamaian, ketenangan, dan kebahagiaan bagi kita semua.</p>`
   },
 
-   {
+  {
     id: 50,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Selamat Hari Raya Idul Fitri 1447 H, Mohon Maaf Lahir dan Batin",
     date: "20 Maret 2026",
     image: "img/50.png",
@@ -1130,9 +1130,9 @@ Selanjutnya, pembacaan janji OSIS dipimpin oleh Steven Chandra selaku ketua OSIS
 <p>Minal Aidin Wal Faizin, mohon maaf lahir dan batin. Semoga kebahagiaan dan keberkahan senantiasa menyertai kita semua.</p>`
   },
 
-   {
+  {
     id: 51,
-    kategori : 'pengumuman',
+    kategori: 'pengumuman',
     title: "Saatnya Kembali Ke Sekolah Kristoforian",
     date: "24 Maret 2026",
     image: "img/51.png",
@@ -1147,9 +1147,9 @@ Selanjutnya, pembacaan janji OSIS dipimpin oleh Steven Chandra selaku ketua OSIS
 <p>Selamat kembali ke sekolah dan tetap semangat dalam menuntut ilmu!</p>`
   },
 
-   {
+  {
     id: 52,
-    kategori : 'kegiatan',
+    kategori: 'kegiatan',
     title: "Ibadah Persiapan Pengakuan Dosa",
     date: "27 Maret 2026",
     image: "img/52.png",
@@ -1160,6 +1160,6 @@ Selanjutnya, pembacaan janji OSIS dipimpin oleh Steven Chandra selaku ketua OSIS
     <p>
 Kegiatan ini bertujuan untuk menumbuhkan kesadaran akan pentingnya pertobatan serta memperdalam iman setiap siswa dalam kehidupan sehari-hari. Selain itu, ibadah ini juga menjadi kesempatan bagi para siswa untuk memohon pengampunan dan memperbaharui diri menjadi pribadi yang lebih baik. Melalui kegiatan ini, diharapkan seluruh siswa dapat semakin menghayati nilai-nilai kasih, kejujuran, dan tanggung jawab. Dengan demikian, semangat pertobatan yang diperoleh dapat diterapkan dalam kehidupan di sekolah maupun di lingkungan masyarakat.</p>`
   },
-  
- 
+
+
 ];

@@ -199,23 +199,6 @@ body{
     margin-bottom: 0;
 }
 
-.hero-ab ul {
-    font-size: 0.97rem;
-    color: rgba(255,255,255,0.82);
-    max-width: 820px;
-    line-height: 1.75;
-    margin-bottom: 36px;
-    padding-left: 20px;
-}
-
-.hero-ab ul li {
-    margin-left: 4px;
-}
-
-.hero-ab p + ul {
-    margin-top: 3px;
-}
-
 .slider-heading {
     text-align: center;
     margin-bottom: 40px;
@@ -506,4 +489,186 @@ body{
   padding: 20px;
   font-size: 12px;
   color: rgba(255,255,255,0.4);
+}
+
+/* =============================================
+   RESPONSIVE BREAKPOINTS — about.css
+   ============================================= */
+
+/* ── TABLET (max 1024px) ── */
+@media (max-width: 1024px) {
+
+    /* Navbar */
+    .nav-top {
+        padding: 16px 24px;
+    }
+
+    /* Hero */
+    .hero-ab {
+        padding: 0 24px;
+        padding-top: 80px;
+    }
+
+    .hero-inner {
+        padding: 40px 0;
+    }
+
+    /* Flex Section */
+    .flex-section {
+        padding: 60px 24px;
+    }
+
+    .flex-inner {
+        gap: 40px;
+    }
+
+    /* Footer */
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        padding: 50px 40px 30px;
+    }
+}
+
+/* ── MOBILE (max 768px) ── */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .nav-top {
+        padding: 14px 16px;
+    }
+
+    /* Nav brand: lepas dari posisi absolute biar gak nabrak */
+    .nav-brand {
+        position: static;
+        transform: none;
+        left: auto;
+    }
+
+    .nav-logo {
+        width: 42px;
+        height: 42px;
+    }
+
+    .nav-brand-name {
+        font-size: 13px;
+    }
+
+    .nav-socials {
+        gap: 10px;
+    }
+
+    .nav-socials i {
+        font-size: 17px;
+    }
+
+    /* Nav dropdown wrap */
+    .nav-dropdown.open {
+        max-height: 260px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        padding: 6px 12px;
+        justify-content: flex-start;
+    }
+
+    .nav-links li a {
+        padding: 9px 10px;
+        font-size: 11px;
+    }
+
+    /* Hero */
+    .hero-ab {
+        min-height: auto;
+        padding: 100px 16px 50px;
+    }
+
+    .hero-ab h1 {
+        font-size: 1.6rem;
+        margin-bottom: 14px;
+    }
+
+    .hero-ab p,
+    .hero-ab ul {
+        font-size: 0.9rem;
+    }
+
+    /* Flex section */
+    .flex-section {
+        padding: 50px 16px;
+    }
+
+    .flex-inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .flex-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .flex-images {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .flex-images img {
+        height: 130px;
+    }
+
+    .flex-images img:first-child {
+        height: 160px;
+    }
+
+    /* Slider */
+    .slider-section {
+        padding: 50px 0;
+    }
+
+    .slider-heading {
+        font-size: 1.5rem;
+        padding: 0 16px;
+        margin-bottom: 24px;
+    }
+
+    /* Footer */
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 40px 24px 24px;
+    }
+}
+
+/* ── MOBILE SMALL (max 480px) ── */
+@media (max-width: 480px) {
+
+    .hero-ab h1 {
+        font-size: 1.3rem;
+    }
+
+    .hero-ab p,
+    .hero-ab ul {
+        font-size: 0.85rem;
+    }
+
+    .flex-images {
+        grid-template-columns: 1fr;
+    }
+
+    .flex-images img {
+        height: 180px;
+    }
+
+    .flex-images img:first-child {
+        height: 180px;
+        grid-column: auto;
+    }
+
+    .slider-heading {
+        font-size: 1.2rem;
+    }
+
+    .footer-col.menu {
+        grid-template-columns: 1fr 1fr;
+    }
 }
