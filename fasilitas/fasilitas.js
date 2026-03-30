@@ -26,23 +26,24 @@ const facilities = [
   {
     name: "Laboratorium Komputer",
     images: [
-      "foto fasilitas/LabKomputer1.webp",
-      "foto fasilitas/LabKomputer2.webp"
+      "foto fasilitas/LabKomputer1.jpg",
+      "foto fasilitas/LabKomputer2.jpg"
     ]
   },
   {
     name: "Laboratorium IPA",
     images: [
+      "foto fasilitas/lab7.jpeg",
+      "foto fasilitas/lab4.jpeg",
+      "foto fasilitas/lab11.jpeg",
       "foto fasilitas/lab6.jpeg",
       "foto fasilitas/lab1.jpeg",
       "foto fasilitas/lab2.jpeg",
       "foto fasilitas/lab3.jpeg",
-      "foto fasilitas/lab4.jpeg",
-      "foto fasilitas/lab7.jpeg",
       "foto fasilitas/lab8.jpeg",
       "foto fasilitas/lab9.jpeg",
       "foto fasilitas/lab10.jpeg",
-      "foto fasilitas/lab11.jpeg",
+
       "foto fasilitas/lab12.jpeg",
     ]
   },
@@ -85,9 +86,9 @@ const facilities = [
   {
     name: "Gereja",
     images: [
+      "foto fasilitas/gereja3.jpeg",
       "foto fasilitas/gereja1.jpeg",
       "foto fasilitas/gereja2.jpeg",
-      "foto fasilitas/gereja3.jpeg"
     ]
   },
   {
@@ -105,17 +106,10 @@ const facilities = [
   {
     name: "Ruang Tata Usaha",
     images: [
-      "foto fasilitas/ruangtu.jpeg",
+      "foto fasilitas/RuangTataUsaha3.jpg",
       "foto fasilitas/RuangTataUsaha1.jpg",
       "foto fasilitas/RuangTataUsaha2.jpg",
-      "foto fasilitas/RuangTataUsaha3.jpg",
-    ]
-  },
-  {
-    name: "Pos Satpam",
-    images: [
-      "foto fasilitas/LabKomputer1.webp",
-      "foto fasilitas/LabKomputer2.webp"
+      
     ]
   },
   {
@@ -128,8 +122,8 @@ const facilities = [
   {
     name: "Kamar Mandi",
     images: [
-      "foto fasilitas/Toilet1.webp",
-      "foto fasilitas/Toilet3.webp"
+      "foto fasilitas/Toilet1.jpg",
+      "foto fasilitas/Toilet3.jpg"
     ]
   },
 ];

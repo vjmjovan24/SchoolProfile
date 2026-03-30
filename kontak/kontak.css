@@ -474,3 +474,309 @@ body{
   font-size: 12px;
   color: rgba(255,255,255,0.4);
 }
+
+/* =========================================
+   RESPONSIVE FIX (NON-DESTRUCTIVE)
+   ========================================= */
+
+/* ===== TABLET ===== */
+@media (max-width: 1024px) {
+
+    .nav-top {
+        padding: 16px 24px;
+    }
+
+    .visit-info {
+        padding: 120px 40px;
+    }
+
+    .contact-form-wrap {
+        padding: 60px 40px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        padding: 50px 40px;
+    }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+
+    /* NAVBAR FIX */
+    .nav-brand {
+        position: static;
+        transform: none;
+    }
+
+    /* STACK LAYOUT (IMPORTANT) */
+    .visit-section {
+        flex-direction: column;
+    }
+
+    .contact-section {
+        flex-direction: column;
+    }
+
+    /* KEEP STYLE BUT ADJUST SPACING */
+    .visit-info {
+        padding: 80px 24px;
+    }
+
+    .contact-form-wrap {
+        padding: 50px 24px;
+    }
+
+    /* FORM FIX */
+    .form-row {
+        flex-direction: column;
+    }
+
+    /* MAP SIZE */
+    .contact-map {
+        height: 320px;
+    }
+
+    /* IMAGE HEIGHT FIX */
+    .visit-photo {
+        height: 260px;
+    }
+
+    /* FOOTER */
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 40px 24px;
+    }
+}
+
+/* ===== SMALL MOBILE ===== */
+@media (max-width: 480px) {
+
+    .visit-info {
+        padding: 60px 20px;
+    }
+
+    .contact-form-wrap {
+        padding: 40px 20px;
+    }
+
+    .contact-map {
+        height: 260px;
+    }
+
+    .visit-photo {
+        height: 220px;
+    }
+}
+
+/* =============================================
+   NAVBAR — TABLET & BELOW (≤ 1024px)
+   ============================================= */
+
+@media (max-width: 1024px) {
+    .nav-top {
+        padding: 16px 28px;
+    }
+
+    .nav-brand-name {
+        font-size: 14px;
+    }
+
+    .nav-logo {
+        width: 48px;
+        height: 48px;
+    }
+
+    .nav-socials {
+        gap: 12px;
+    }
+
+    .nav-socials i {
+        font-size: 18px;
+    }
+}
+
+
+/* =============================================
+   NAVBAR — MOBILE (≤ 768px)
+   ============================================= */
+
+@media (max-width: 768px) {
+
+    .nav-top {
+        display: grid;
+        grid-template-columns: 38px 1fr auto;
+        align-items: center;
+        gap: 8px;
+        padding: 14px 16px;
+    }
+
+    .nav-brand {
+        position: static;
+        transform: none;
+        justify-self: center;
+        gap: 10px;
+    }
+
+    .nav-logo {
+        width: 38px;
+        height: 38px;
+    }
+
+    .nav-brand-name {
+        font-size: 12px;
+    }
+
+    .nav-brand-name span {
+        font-size: 8.5px;
+    }
+
+    .nav-socials {
+        gap: 10px;
+    }
+
+    .nav-socials i {
+        font-size: 17px;
+    }
+
+    /* Dropdown becomes vertical */
+    .nav-links {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 0;
+        align-items: stretch;
+    }
+
+    .nav-links li a {
+        padding: 14px 24px;
+        font-size: 13px;
+        border-bottom: 1px solid rgba(26, 31, 58, 0.06);
+        white-space: normal;
+    }
+
+    .nav-dropdown.open .nav-links {
+        padding: 8px 0;
+    }
+
+    .nav-links li:last-child a {
+        border-bottom: none;
+    }
+
+    .nav-links li a:hover,
+    .nav-links li.active a {
+        background: rgba(249, 204, 2, 0.12);
+    }
+
+    /* Active indicator = left bar */
+    .nav-links li.active a::after {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: auto;
+        width: 3px;
+        height: auto;
+        border-radius: 0 2px 2px 0;
+    }
+}
+
+
+/* =============================================
+   NAVBAR — SMALL PHONE (≤ 480px)
+   ============================================= */
+
+@media (max-width: 480px) {
+
+    .nav-brand-name {
+        font-size: 10.5px;
+    }
+
+    .nav-brand-name br {
+        display: none;
+    }
+
+    .nav-brand-name span {
+        font-size: 7.5px;
+    }
+
+    .nav-logo {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
+/* =============================================
+   NAVBAR — EXTRA SMALL (≤ 360px)
+   ============================================= */
+
+@media (max-width: 360px) {
+
+    .nav-brand-name {
+        display: none; /* logo only */
+    }
+
+    .nav-top {
+        grid-template-columns: 38px auto auto;
+    }
+}
+
+/* =============================================
+   FOOTER — TABLET (≤ 1024px)
+   ============================================= */
+
+@media (max-width: 1024px) {
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        padding: 50px 40px 30px;
+    }
+}
+
+
+/* =============================================
+   FOOTER — MOBILE (≤ 768px)
+   ============================================= */
+
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 40px 24px 24px;
+    }
+}
+
+
+/* =============================================
+   FOOTER — SMALL PHONE (≤ 480px)
+   ============================================= */
+
+@media (max-width: 480px) {
+    .footer-container {
+        gap: 24px;
+        padding: 32px 16px 16px;
+    }
+
+    .footer-col.menu {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* =============================================
+   FOOTER — EXTRA SMALL (≤ 360px)
+   ============================================= */
+
+@media (max-width: 360px) {
+    .footer-col.menu {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 769px) {
+    .nav-dropdown {
+        max-height: none;
+        overflow: visible;
+    }
+}
