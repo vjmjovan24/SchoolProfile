@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA Santo Kristoforus 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="kehidupan.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-top">
+            <button class="hamburger-btn" id="hamburger" onclick="toggleNav()">
+                <span></span><span></span><span></span>
+            </button>
+        
+            <a class="nav-brand" href="../beranda/home.html">
+            <img src="logoxto.png" class="nav-logo">
+            <div>
+                 <p class="nav-brand-name">SMA ST. KRISTOFORUS 1 <br> <span>Iman · Moral · Pengetahuan</span></p>
+                
+            </div>
+            </a>
+
+            <div class="nav-socials">
+                <a href="#" title="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/osis_smaxto1/" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" title="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="#" title="Youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="nav-divider"></div>
+
+        <div class="nav-dropdown" id="navDropdown">
+              <ul class="nav-links">
+                <li><a href="../beranda/home.html">Beranda</a></li>
+                <li><a href="../tentang/about.html">Tentang</a></li>  
+                <li><a href="../fasilitas/fasilitas.html">Fasilitas</a></li>
+                <li class="active"><a href="../kehidupan/kehidupan.html">Kehidupan Siswa</a></li>
+                <li><a href="../berita/news.html">Berita</a></li>
+                <li><a href="../prestasi/prestasi.html">Prestasi</a></li>
+                <li><a href="#">SPMB</a></li>
+                <li><a href="#">Kontak</a></li>
+             </ul>
+        </div>
+    </nav>
+
+  <!-- ══════════════════════════════
+       HERO
+  ══════════════════════════════ -->
+  <section class="sl-hero">
+    <div class="sl-hero-img"></div>
+    <div class="sl-hero-overlay"></div>
+    <div class="sl-hero-inner">
+      <h1>Kehidupan<br><span>Siswa</span></h1>
+      <p>Di sinilah cerita dimulai—tempat belajar, bertumbuh, dan menciptakan kenangan tak terlupakan.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       EXTRACURRICULAR — TABS
+  ══════════════════════════════ -->
+  <section class="ekskul-section">
+    <div class="ekskul-inner">
+      <div class="ekskul-header">
+        <div>
+          <span class="section-label">Kegiatan</span>
+          <h2 class="section-title">Ekstrakurikuler</h2>
+          <p class="section-sub">Temukan kegiatan yang sesuai minat dan bakatmu di luar jam pelajaran.</p>
+        </div>
+        <div class="ekskul-tabs">
+          <button class="ekskul-tab active" data-tab="academic"><i class="fa-solid fa-laptop-code"></i> Akademik</button>
+          <button class="ekskul-tab" data-tab="arts"><i class="fa-solid fa-palette"></i>Non-Akademik</button>
+          <button class="ekskul-tab" data-tab="sports"><i class="fa-solid fa-futbol"></i> Olahraga</button>
+          
+        </div>
+      </div>
+
+      <!-- Academic -->
+      <div class="ekskul-panel active" id="tab-academic">
+        <div class="ekskul-swiper-wrap">
+          <div class="swiper ekskul-swiper ekskul-swiper-academic">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/OSN.jpg" alt="Olimpiade"/><div class="ekskul-card-body"><div class="ekskul-card-tag">💻 Akademik</div><h3>Olimpiade</h3><p>Persiapan intensif untuk olimpiade Matematika, Fisika, Kimia, dan Biologi.</p></div></div></div>
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/PRAMUKA (10.1).jpg" alt="Pramuka"/><div class="ekskul-card-body"><div class="ekskul-card-tag">💻 Akademik</div><h3>Pramuka</h3><p>Membentuk kemandirian, kerja sama, dan kepedulian melalui kegiatan alam dan sosial.</p></div></div></div>
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/JURNALISTIK(1).jpg" alt="Jurnalistik"/><div class="ekskul-card-body"><div class="ekskul-card-tag">💻 Akademik</div><h3>Jurnalistik</h3><p>Meliput berita sekolah, menulis artikel, dan mengelola majalah dinding sekolah.</p></div></div></div>
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="EKSKUL/ENGLISH.jpg" alt="English Club"/><div class="ekskul-card-body"><div class="ekskul-card-tag">💻 Akademik</div><h3>English Club</h3><p>Melatih kemampuan berbicara dan debat dalam bahasa Inggris di forum kompetitif.</p></div></div></div>
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/chinese.jpg" alt="Chinese Club"/><div class="ekskul-card-body"><div class="ekskul-card-tag">💻 Akademik</div><h3>Chinese Club</h3><p>Belajar pemrograman, membangun aplikasi, dan bersaing di hackathon antar sekolah.</p></div></div></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arts -->
+      <div class="ekskul-panel" id="tab-arts">
+        <div class="ekskul-swiper-wrap">
+          <div class="swiper ekskul-swiper ekskul-swiper-arts">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/PADUS.jpg" alt="Paduan Suara"/><div class="ekskul-card-body"><div class="ekskul-card-tag">🎨 Non-akademik</div><h3>Paduan Suara</h3><p>Wadah untuk mengembangkan harmoni suara dan kekompakan dalam bernyanyi bersama.</p></div></div></div>
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/ANSAMBEL.jpeg" alt="Ansambel"/><div class="ekskul-card-body"><div class="ekskul-card-tag">🎨 Non-akademik</div><h3>Ansambel</h3><p>Tempat bermain musik secara kolaboratif dengan berbagai alat musik dalam satu kesatuan.</p></div></div></div>
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/BAND.jpeg" alt="Band"/><div class="ekskul-card-body"><div class="ekskul-card-tag">🎨 Non-akademik</div><h3>Band</h3><p>Ruang bagi siswa untuk mengekspresikan diri melalui musik modern dan penampilan panggung.</p></div></div></div>
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/MD.jpeg" alt="Modern Dance"/><div class="ekskul-card-body"><div class="ekskul-card-tag">🎨 Non-akademik</div><h3>Modern Dance</h3><p>Ekspresi gerak kreatif yang menggabungkan teknik tari dengan energi dan gaya masa kini.</p></div></div></div>
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/PASKIBRA.jpg" alt="Paskibra"/><div class="ekskul-card-body"><div class="ekskul-card-tag">🎨 Non-akademik</div><h3>Paskibra</h3><p>Membentuk disiplin, kepemimpinan, dan jiwa nasionalisme melalui baris-berbaris.</p></div></div></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sports -->
+      <div class="ekskul-panel" id="tab-sports">
+        <div class="ekskul-swiper-wrap">
+          <div class="swiper ekskul-swiper ekskul-swiper-sports">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/FUTSAL.jpeg" alt="Futsal"/><div class="ekskul-card-body"><div class="ekskul-card-tag">⚽ Olahraga</div><h3>Futsal</h3><p>Menumbuhkan skill, kerja sama, dan semangat kompetitif di lapangan.</p></div></div></div>
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/BASKET.JPG" alt="Basket"/><div class="ekskul-card-body"><div class="ekskul-card-tag">⚽ Olahraga</div><h3>Basket</h3><p>Mengasah kerja sama tim, strategi, dan ketangkasan dalam permainan bola basket.</p></div></div></div>
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/VOLI.jpg" alt="Voli"/><div class="ekskul-card-body"><div class="ekskul-card-tag">⚽ Olahraga</div><h3>Voli</h3><p>Melatih kekompakan, refleks, dan komunikasi tim dalam setiap permainan.</p></div></div></div>
+              <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/BADMIN.jpg" alt="Badminton"/><div class="ekskul-card-body"><div class="ekskul-card-tag">⚽ Olahraga</div><h3>Badminton</h3><p>Mengembangkan kecepatan, ketepatan, dan fokus dalam olahraga bulu tangkis.</p></div></div></div>
+               <div class="swiper-slide"><div class="ekskul-card"><img class="ekskul-card-img" src="ekskul/TAEKWONDO.jpg" alt="Taekwondo"/><div class="ekskul-card-body"><div class="ekskul-card-tag">⚽ Olahraga</div><h3>Taekwondo</h3><p>Melatih kedisiplinan, kekuatan, dan kepercayaan diri melalui seni bela diri.</p></div></div></div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       EVENTS SWIPER
+  ══════════════════════════════ -->
+  <section class="events-section">
+    <div class="events-inner">
+      <div class="events-header">
+        <span class="section-label">Kalender Sekolah</span>
+        <h2 class="section-title">Kegiatan</h2>
+        <p class="section-sub">Momen-momen tak terlupakan yang membentuk karakter dan mempererat kebersamaan.</p>
+      </div>
+    </div>
+    <div class="events-swiper-wrap">
+      <div class="swiper events-swiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <img src="event/KIDS.JPG" alt="Kristoforus Initiation Days"/>
+            <div class="events-slide-overlay"></div>
+            <div class="events-slide-body">
+              <h3>Kristoforus Initiation Days</h3>
+              <p>Masa pengenalan lingkungan sekolah yang seru untuk membangun adaptasi dan kebersamaan siswa baru.</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="event/KSLC.jpg" alt="Kristoforus Servant Leadership Camp"/>
+            <div class="events-slide-overlay"></div>
+            <div class="events-slide-body">
+              <h3>Kristoforus Servant Leadership Camp</h3>
+              <p>Pelatihan kepemimpinan yang membentuk karakter pelayan, kerja sama, dan tanggung jawab.</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="event/KLSP.JPG" alt="Kristoforus Life Skill Project"/>
+            <div class="events-slide-overlay"></div>
+            <div class="events-slide-body">
+              <h3>Kristoforus Life Skill Project</h3>
+              <p>Pengalaman live-in yang mengasah kemandirian, empati, dan keterampilan hidup nyata.</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="event/KSD.JPG" alt="Kristoforus Spiritual Development"/>
+            <div class="events-slide-overlay"></div>
+            <div class="events-slide-body">
+              <h3>Kristoforus Spiritual Development</h3>
+              <p>Kegiatan retret untuk memperdalam iman, refleksi diri, dan kedekatan dengan Tuhan.</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="event/KOLT.jpg" alt="Kristoforus OSIS Leadership Training"/>
+            <div class="events-slide-overlay"></div>
+            <div class="events-slide-body">
+              <h3>Kristoforus OSIS Leadership Training</h3>
+              <p>Pembekalan kepemimpinan bagi pengurus OSIS untuk menjadi pemimpin yang aktif dan berdampak.</p>
+            </div>
+          </div>
+
+           <div class="swiper-slide">
+            <img src="event/KEC.JPG" alt="Kristoforus Event Celebration"/>
+            <div class="events-slide-overlay"></div>
+            <div class="events-slide-body">
+              <h3>Kristoforus Event Celebration</h3>
+              <p>Perayaan berbagai momen spesial yang meriah dan penuh kebersamaan.</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="event/KCW.JPG" alt="Kristoforus Creativity Week"/>
+            <div class="events-slide-overlay"></div>
+            <div class="events-slide-body">
+              <h3>Kristoforus Creativity Week</h3>
+              <p>Pekan penuh kreativitas untuk menyalurkan bakat dan inovasi siswa dalam berbagai bidang.</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="event/KRL.jpg" alt="Kristoforus Religious Life"/>
+            <div class="events-slide-overlay"></div>
+            <div class="events-slide-body">
+              <h3>Kristoforus Religious Life</h3>
+              <p>Kegiatan keagamaan yang memperkuat iman dan kebersamaan dalam komunitas sekolah.</p>
+            </div>
+          </div>
+
+           <div class="swiper-slide">
+            <img src="event/KCD.jpg" alt="Kristoforus Career Day"/>
+            <div class="events-slide-overlay"></div>
+            <div class="events-slide-body">
+              <h3>Kristoforus Career Day</h3>
+              <p>Edufair yang menghadirkan berbagai kampus untuk membantu siswa merencanakan masa depan.</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="event/KMD.JPG" alt="Kristoforus Mission Days"/>
+            <div class="events-slide-overlay"></div>
+            <div class="events-slide-body">
+              <h3>Kristoforus Mission Days</h3>
+              <p>Momen kelulusan yang penuh makna sebagai penutup perjalanan dan awal langkah baru.</p>
+            </div>
+          </div>
+          
+
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       TESTIMONIAL
+  ══════════════════════════════ -->
+  <section class="testimony-section">
+    <div class="testimony-inner">
+      <div class="testimony-stars">★★★★★</div>
+
+      <blockquote class="testimony-quote" id="testimony-text">
+        "Sekolah St.Kristoforus menerapkan nilai nilai <em>kejujuran dan kepemimpinan</em> yang baik melalui berbagai program sekolah baik dalam pelajaran sehari hari, ekstrakurikuler, maupun interaksi dengan pihak pihak yang terkait."
+      </blockquote>
+
+      <div class="testimony-nav">
+        <button class="testimony-nav-btn" id="tPrev"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="testimony-dots" id="testimony-dots"></div>
+        <button class="testimony-nav-btn" id="tNext"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+
+      <div class="testimony-author">
+        <img class="testimony-avatar" src="alumni/6.jpg" alt="Student" id="testimony-avatar"/>
+        <div class="testimony-author-info">
+          <div class="testimony-author-name" id="testimony-name">Yessylia Violin A</div>
+          <div class="testimony-author-role" id="testimony-role">ROASTERY MANAGER</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="logoxto.png" alt="logo">
+          <div>
+            <h3>SMA St. Kristoforus 1</h3>
+            <span>Iman · Moral · Pengetahuan</span>
+          </div>
+        </div>
+
+        <p class="footer-desc">
+          Sekolah Katolik di Jakarta Barat yang membentuk generasi cerdas,
+          berkarakter, dan bermartabat sejak 1982.
+        </p>
+
+        <div class="footer-socials">
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col menu">
+        <h4 style="grid-column: span 2;">Menu Utama</h4>
+        <a href="#">Beranda</a>
+        <a href="#">Tentang</a>
+        <a href="#">Fasilitas</a>
+        <a href="#">Ekstrakurikuler</a>
+        <a href="#">Berita</a>
+        <a href="#">Prestasi</a>
+        <a href="#">SPMB</a>
+        <a href="#">Kontak</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kontak</h4>
+        <p>Jl. Rahayu No. 1 A, Grogol, <br>Jakarta Barat 11460</p>
+        <p>(021) 565 9827</p>
+        <p>info@smakristoforus1.sch.id</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Jam Operasional</h4>
+        <p><strong>Senin – Jumat</strong><br>07.00 – 16.00</p>
+        <p><strong>Sabtu – Minggu</strong><br>Tutup</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 SMA St. Kristoforus 1</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="kehidupan.js"></script>
+    
+</body>
+</html>

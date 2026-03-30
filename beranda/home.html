@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA Santo Kristoforus 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-top">
+            <button class="hamburger-btn" id="hamburger" onclick="toggleNav()">
+                <span></span><span></span><span></span>
+            </button>
+        
+            <a class="nav-brand" href="../beranda/home.html">
+            <img src="logoxto.png" class="nav-logo">
+            <div>
+                 <p class="nav-brand-name">SMA ST. KRISTOFORUS 1 <br> <span>Iman · Moral · Pengetahuan</span></p>
+                
+            </div>
+            </a>
+
+            <div class="nav-socials">
+                <a href="#" title="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/osis_smaxto1/" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" title="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="#" title="Youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="nav-divider"></div>
+
+        <div class="nav-dropdown" id="navDropdown">
+              <ul class="nav-links">
+                <li class="active"><a href="../beranda/home.html">Beranda</a></li>
+                <li><a href="../tentang/about.html">Tentang</a></li>  
+                <li><a href="../fasilitas/fasilitas.html">Fasilitas</a></li>
+                <li><a href="../kehidupan/kehidupan.html">Kehidupan Siswa</a></li>
+                <li><a href="../berita/news.html">Berita</a></li>
+                <li><a href="../prestasi/prestasi.html">Prestasi</a></li>
+                <li><a href="https://sma1.kristo.sch.id/psb/psb_v2.php">SPMB</a></li>
+                <li><a href="#">Kontak</a></li>
+             </ul>
+        </div>
+    </nav>
+
+        <section class="hero">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1>SMA Santo Kristoforus 1</h1>
+                    <p>Mendidik Menjadi Cerdas dan Bermartabat</p>
+                    <br>
+                 <div class="hero-button">
+                    <a href="#about" class="heroBtn1" id="exploreBtn">Jelajahi Sekolah</a>
+                    <a class="heroBtn2" id="exploreBtn" href="https://sma1.kristo.sch.id/psb/psb_v2.php">Daftar Sekarang</a>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+
+       <section class="about" id="about">
+        <div class="about-wrapper">
+                <div class="about-left">
+            <img src="logoxto.png" alt="Logo SMA Santo Kristoforus 1" class="about-logo">
+            </div>
+        <div class="about-right">
+            <h2>Selamat Datang di SMA St. Kristoforus 1</h2>
+           <p>Persekolahan Kristoforus adalah komunitas belajar di Jakarta Barat yang mengintegrasikan iman, moral, dan pengetahuan melalui Kristoforus Values. Berlandaskan filosofi Fides, Mores, dan Intellectus, kami membentuk pribadi yang cerdas, berkarakter, dan bermartabat.</p>
+            <p>Dari kelas X hingga XII, kami menghadirkan pendidikan berbasis nilai Kristiani dengan kurikulum yang mendorong keunggulan akademik, pemikiran kritis, kreativitas, serta semangat belajar sepanjang hayat.</p>
+        </div>
+    </div>
+
+    <div class="stats">
+        <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-school"></i></div>
+            <span class="stat-number" data-target="1982">0</span>
+            <span class="stat-label">Didirikan</span>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+            <span class="stat-number grade">C</span>
+            <span class="stat-label">Akreditasi</span>
+        </div>
+        <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+            <span class="stat-number plus" data-target="300">0+</span>
+            <span class="stat-label">Siswa Aktif</span>
+        </div>
+        <div class="stat-item">
+                        <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <span class="stat-number plus" data-target="1000">0+</span>
+            <span class="stat-label">Alumni</span>
+        </div>
+    </div>
+</section>
+
+<section class="news" id="news">
+    <h2>Berita Terkini</h2>
+    <div class="underline-bar"></div>
+    <div class="news-grid" id="homeNewsContainer"></div>
+    <div class="read-all-wrap" style="margin-top: 32px;">
+        <button class="btn-read-all" onclick="window.location.href='../berita/news.html'">Lihat Selengkapnya</button>
+    </div>
+</section>
+
+<section class="culture">
+    <h2>Kehidupan Sekolah</h2>
+    <p class="culture-sub">Kumpulan momen yang mewarnai perjalanan kami di sekolah.</p>
+    
+     <div class="culture-grid">
+        <div class="g-item"><img src="bg.jpg" alt=""><div class="cph c1"></div></div>
+        <div class="g-item"><img src=".jpg" alt=""><div class="cph c2"></div></div>
+        <div class="g-item"><img src="test.jpg" alt=""><div class="cph c3"></div></div>
+        <div class="g-item"><img src="test.jpg" alt=""><div class="cph c4"></div></div>
+        <div class="g-item"><img src="test.jpg" alt=""><div class="cph c5"></div></div>
+        <div class="g-item"><img src="test.jpg" alt=""><div class="cph c6"></div></div>
+        <div class="g-item"><img src="test.jpg" alt=""><div class="cph c7"></div></div>
+        <div class="g-item"><img src="test.jpg" alt=""><div class="cph c8"></div></div>
+        <div class="g-item"><img src="test.jpg" alt=""><div class="cph c9"></div></div>
+        <div class="g-item"><img src="test.jpg" alt=""><div class="cph c10"></div></div>
+        <div class="g-item"><img src="test.jpg" alt=""><div class="cph c11"></div></div>
+        <div class="g-item"><img src="test.jpg" alt=""><div class="cph c12"></div></div>
+</section>
+
+<section class="achievement">
+    <div class="ach-layout">
+        <div class="ach-left">
+            <h2>Prestasi &amp; <br>Penghargaan</h2>
+            <p>Berbagai pencapaian membanggakan yang diraih oleh siswa-siswi SMA St. Kristoforus 1 di tingkat lokal, maupun nasional</p>
+            <button class="btn-all-achievement" class="btn-read-all" onclick="window.location.href='../prestasi/prestasi.html'">Lihat Semua Prestasi</button>
+        </div>
+
+        <div class="ach-right" id="homePrestasiContainer">
+        </div>
+    </div>
+</section>
+
+<section class="alumni">
+    <div class="alumni-layout">
+        <div class="alumni-left">
+            <div class="alumni-card">
+                <div class="bg ap1"></div>
+                <div class="alumni-info">
+                    <span class="alumni-badge">Alumni 2025</span>
+                    <p class="alumni-name">Florencia Talitha</p>
+                    <p class="alumni-univ">BCA Learning Institute - PPBP BCA</p>
+                </div>
+            </div>
+
+            <div class="alumni-card">
+                <div class="bg ap2"></div>
+                <div class="alumni-info">
+                    <span class="alumni-badge">Alumni 2025</span>
+                    <p class="alumni-name">Florencia Talitha</p>
+                    <p class="alumni-univ">BCA Learning Institute - PPBP BCA</p>
+                </div>
+            </div>
+
+            <div class="alumni-card">
+                <div class="bg ap3"></div>
+                <div class="alumni-info">
+                    <span class="alumni-badge">Alumni 2025</span>
+                    <p class="alumni-name">Florencia Talitha</p>
+                    <p class="alumni-univ">BCA Learning Institute - PPBP BCA</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="alumni-right">
+            <h2>Alumni<br>Terbaik Kami</h2>
+            <p>Lulusan SMA St. Kristoforus 1 telah melanjutkan perjalanan ke universitas-universitas terbaik di Indonesia dan dunia, membawa nilai Iman, Moral, dan Pengetahuan ke mana pun mereka melangkah.</p>
+        </div>
+    </div>
+
+     <div class="ticker-wrap">
+      <div class="ticker-track">
+       <div class="ticker-item">
+    <img class="ticker-logo" src="https://febinfluencer.com/wp-content/uploads/event-manager-uploads/organizer_logo/2021/07/Logo-Binus-University-Universitas-Bina-Nusantara-Original-PNG.png">
+    </div>
+
+    <div class="ticker-item">
+    <img class="ticker-logo" src="https://assets.nsd.co.id/images/kampus/logo/LAMBANG_UNTAR.png">
+    </div>
+
+
+    <div class="ticker-item">
+    <img class="ticker-logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV-Ihr0ztWxlC8Jusqb0UUG6kSnsC5LJQIyoGseK1uwoSRm_hV_m_1LASYgQ0fF_DnGCJtvfeBZRxSzUgf5v57kOmsBAiZCTLenBn8fXMPU-Fsi8Lw5mGtCsnEhuPr7f4k3j5-aT3npjLisj3-AjHQASeyjCTgAIFu7Ee6t2d-NzSqOLndUYs_uQ/w312-h320/Universitas%20Trisakti%20[KOLEKSILOGO.COM].png">
+    </div>
+
+        <div class="ticker-item">
+    <img class="ticker-logo" src="https://koeliah.com/wp-content/uploads/2019/02/atmajaya.png">
+    </div>
+
+    <div class="ticker-item">
+    <img class="ticker-logo" src="https://avatars.githubusercontent.com/u/58277154?s=280&v=4">
+    </div>
+
+    <div class="ticker-item">
+  <img class="ticker-logo" src="https://png.pngtree.com/png-clipart/20221224/original/pngtree-bca-bank-logo-png-image_8801637.png">
+    </div>
+
+    <div class="ticker-item">
+  <img class="ticker-logo" src="https://1.bp.blogspot.com/-SE6r3dDLmew/Xkiv0MuNmmI/AAAAAAAABn8/WmKa1sn4VLEDyTaL5z097PMynMPRrHPVwCLcBGAsYHQ/s1600/Logo%2BUI%2B%2528Universitas%2BIndonesia%2529.png">
+    </div>
+
+    <div class="ticker-item">
+    <img class="ticker-logo" src="https://th.bing.com/th/id/R.b2ec542f9923ab8446965b2aed23e0e0?rik=YSL%2ff2a68XJTog&riu=http%3a%2f%2f1.bp.blogspot.com%2f-mRfYn22fdZ8%2fVPSSCgJUCVI%2fAAAAAAAACCQ%2fIaDkw6CjEsA%2fs1600%2fLogo-Universitas-Brawijaya.jpg&ehk=VYLfSCisJX6P681WWyfd%2b79NpqHHoG2oefjWCWD4uwE%3d&risl=&pid=ImgRaw&r=0">
+    </div>
+
+     <div class="ticker-item">
+    <img class="ticker-logo" src="https://febinfluencer.com/wp-content/uploads/event-manager-uploads/organizer_logo/2021/07/Logo-Binus-University-Universitas-Bina-Nusantara-Original-PNG.png">
+    </div>
+
+    <div class="ticker-item">
+    <img class="ticker-logo" src="https://assets.nsd.co.id/images/kampus/logo/LAMBANG_UNTAR.png">
+    </div>
+
+
+    <div class="ticker-item">
+    <img class="ticker-logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhV-Ihr0ztWxlC8Jusqb0UUG6kSnsC5LJQIyoGseK1uwoSRm_hV_m_1LASYgQ0fF_DnGCJtvfeBZRxSzUgf5v57kOmsBAiZCTLenBn8fXMPU-Fsi8Lw5mGtCsnEhuPr7f4k3j5-aT3npjLisj3-AjHQASeyjCTgAIFu7Ee6t2d-NzSqOLndUYs_uQ/w312-h320/Universitas%20Trisakti%20[KOLEKSILOGO.COM].png">
+    </div>
+
+        <div class="ticker-item">
+    <img class="ticker-logo" src="https://koeliah.com/wp-content/uploads/2019/02/atmajaya.png">
+    </div>
+
+    <div class="ticker-item">
+    <img class="ticker-logo" src="https://avatars.githubusercontent.com/u/58277154?s=280&v=4">
+    </div>
+
+    <div class="ticker-item">
+  <img class="ticker-logo" src="https://png.pngtree.com/png-clipart/20221224/original/pngtree-bca-bank-logo-png-image_8801637.png">
+    </div>
+
+    <div class="ticker-item">
+  <img class="ticker-logo" src="https://1.bp.blogspot.com/-SE6r3dDLmew/Xkiv0MuNmmI/AAAAAAAABn8/WmKa1sn4VLEDyTaL5z097PMynMPRrHPVwCLcBGAsYHQ/s1600/Logo%2BUI%2B%2528Universitas%2BIndonesia%2529.png">
+    </div>
+
+    <div class="ticker-item">
+    <img class="ticker-logo" src="https://th.bing.com/th/id/R.b2ec542f9923ab8446965b2aed23e0e0?rik=YSL%2ff2a68XJTog&riu=http%3a%2f%2f1.bp.blogspot.com%2f-mRfYn22fdZ8%2fVPSSCgJUCVI%2fAAAAAAAACCQ%2fIaDkw6CjEsA%2fs1600%2fLogo-Universitas-Brawijaya.jpg&ehk=VYLfSCisJX6P681WWyfd%2b79NpqHHoG2oefjWCWD4uwE%3d&risl=&pid=ImgRaw&r=0">
+    </div>
+    </div>
+</section>
+
+<section class="quotes">
+    <div class="quotes-content">
+        <span class="quotes-mark">"</span>
+        <p class="quotes-text">Cerdas dalam pikiran, Kuat dalam iman, Bermartabat dalam hidup.</p>
+    </div>
+</section>
+   
+<footer>
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <img src="logoxto.png" alt="logo">
+        <div>
+          <h3>SMA St. Kristoforus 1</h3>
+          <span>Iman · Moral · Pengetahuan</span>
+        </div>
+      </div>
+
+      <p class="footer-desc">
+        Sekolah Katolik di Jakarta Barat yang membentuk generasi cerdas,
+        berkarakter, dan bermartabat sejak 1982.
+      </p>
+
+      <div class="footer-socials">
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col menu">
+      <h4 style="grid-column: span 2;">Menu Utama</h4>
+      <a href="#">Beranda</a>
+      <a href="#">Tentang</a>
+      <a href="#">Fasilitas</a>
+      <a href="#">Ekstrakurikuler</a>
+      <a href="#">Berita</a>
+      <a href="#">Prestasi</a>
+      <a href="#">SPMB</a>
+      <a href="#">Kontak</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Kontak</h4>
+      <p>Jl. Rahayu No. 1 A, Grogol, <br>Jakarta Barat 11460</p>
+      <p>(021) 565 9827</p>
+      <p>info@smakristoforus1.sch.id</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Jam Operasional</h4>
+      <p><strong>Senin – Jumat</strong><br>07.00 – 16.00</p>
+      <p><strong>Sabtu – Minggu</strong><br>Tutup</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 SMA St. Kristoforus 1</p>
+  </div>
+</footer>
+<script src="../berita/data.js"></script>
+<script src="../prestasi/data.js"></script>
+    <script src="script.js"></script>
+    <script> 
+    const latest = [...newsData].reverse().slice(0, 3);
+  const homeContainer = document.getElementById("homeNewsContainer");
+
+  latest.forEach(item => {
+    const card = document.createElement("div");
+    card.classList.add("news-card");
+    card.innerHTML = `
+      <img src="../berita/${item.image}" alt="">
+      <div class="news-content">
+        <h3>${item.title}</h3>
+        <p class="news-date">${item.date}</p>
+      </div>
+    `;
+    card.onclick = () => window.location.href = `../berita/detail.html?id=${item.id}`;
+    homeContainer.appendChild(card);
+  });
+  </script>
+
+  <script>
+    const latestPrestasi = [...dataPrestasi].reverse().slice(0, 4);
+const achContainer = document.getElementById("homePrestasiContainer");
+
+latestPrestasi.forEach(item => {
+  const card = document.createElement("div");
+  card.className = "ach-card";
+  const bgStyle = item.foto 
+    ? `background: url('../prestasi/${item.foto}') center/cover no-repeat` 
+    : `background: #1a2a4a`;
+  card.innerHTML = `
+    <div class="bg" style="${bgStyle}"></div>
+    <div class="ach-content">
+      <span class="ach-label">${item.kategori}</span>
+      <p class="ach-title">${item.judul}</p>
+      <div class="ach-detail">
+        <div class="ach-divider"></div>
+        <p class="ach-desc">${item.deskripsi}</p>
+        <button class="btn-see-more">Lihat Detail</button>
+      </div>
+    </div>
+  `;
+  card.onclick = () => window.location.href = `../prestasi/prestasidetail.html?id=${item.id}`;
+  achContainer.appendChild(card);
+});
+  </script>
+    
+    
+</body>
+</html>
