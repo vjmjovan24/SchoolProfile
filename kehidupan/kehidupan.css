@@ -31,8 +31,11 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 50px;
+    position: relative;
+
 }
 
+/* ── Hamburger ── */
 .hamburger-btn {
     display: flex;
     flex-direction: column;
@@ -46,6 +49,8 @@ body {
     padding: 6px;
     border-radius: 6px;
     transition: background 0.15s;
+    flex-shrink: 0;
+    z-index: 2;
 }
 
 .hamburger-btn:hover {
@@ -79,6 +84,7 @@ body {
     width: 100%;
 }
 
+/* ── Brand (absolutely centred on desktop) ── */
 .nav-brand {
     display: flex;
     align-items: center;
@@ -106,17 +112,23 @@ body {
 }
 
 .nav-brand-name span {
+    display: block;
     font-size: 10px;
     color: rgba(26, 31, 58, 0.55);
     letter-spacing: 0.14em;
     text-transform: uppercase;
     line-height: 1;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
 }
 
+/* ── Socials ── */
 .nav-socials {
     display: flex;
     align-items: center;
     gap: 16px;
+    flex-shrink: 0;
+    z-index: 2;
 }
 
 .nav-socials a {
@@ -133,6 +145,7 @@ body {
     font-size: 20px;
 }
 
+/* ── Divider & Dropdown ── */
 .nav-divider {
     height: 1px;
     background: rgba(26, 31, 58, 0.1);
@@ -148,14 +161,17 @@ body {
 }
 
 .nav-dropdown.open {
-    max-height: 100px;
+    max-height: 400px;
+    /* tall enough for vertical mobile stack */
 }
 
 .nav-links {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
-    padding: 0 32px;
+    padding: 10px 32px;
     justify-content: center;
+    margin: 0;
 }
 
 .nav-links li a {
@@ -268,10 +284,10 @@ section {
     display: inline-block;
     font-size: 0.72rem;
     font-weight: 800;
-    letter-spacing: 2.5px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--yellow);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .section-title {
@@ -443,7 +459,7 @@ section {
 ══════════════════════════════ */
 .events-section {
     background: var(--navy-dark);
-    padding: 60px 0 0;
+    padding: 45px 0 0;
     overflow: hidden;
 }
 
@@ -459,6 +475,7 @@ section {
 
 .events-header .section-title {
     color: var(--white);
+    margin: 0;
 }
 
 .events-header .section-sub {
@@ -472,7 +489,7 @@ section {
 
 .events-swiper .swiper-slide {
     position: relative;
-    height: 70vh;
+    height: 80vh;
     min-height: 420px;
     overflow: hidden;
 }
@@ -829,6 +846,157 @@ section {
     color: rgba(255, 255, 255, 0.4);
 }
 
+/* =============================================
+   NAVBAR — TABLET & BELOW (≤ 1024px)
+   ============================================= */
+
+@media (max-width: 1024px) {
+    .nav-top {
+        padding: 16px 28px;
+    }
+
+    .nav-brand-name {
+        font-size: 14px;
+    }
+
+    .nav-logo {
+        width: 48px;
+        height: 48px;
+    }
+
+    .nav-socials {
+        gap: 12px;
+    }
+
+    .nav-socials i {
+        font-size: 18px;
+    }
+}
+
+
+/* =============================================
+   NAVBAR — MOBILE (≤ 768px)
+   ============================================= */
+
+@media (max-width: 768px) {
+
+    .nav-top {
+        display: grid;
+        grid-template-columns: 38px 1fr auto;
+        align-items: center;
+        gap: 8px;
+        padding: 14px 16px;
+    }
+
+    .nav-brand {
+        position: static;
+        transform: none;
+        justify-self: center;
+        gap: 10px;
+    }
+
+    .nav-logo {
+        width: 38px;
+        height: 38px;
+    }
+
+    .nav-brand-name {
+        font-size: 12px;
+    }
+
+    .nav-brand-name span {
+        font-size: 8.5px;
+    }
+
+    .nav-socials {
+        gap: 10px;
+    }
+
+    .nav-socials i {
+        font-size: 17px;
+    }
+
+    /* Dropdown becomes vertical */
+    .nav-links {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 0;
+        align-items: stretch;
+    }
+
+    .nav-links li a {
+        padding: 14px 24px;
+        font-size: 13px;
+        border-bottom: 1px solid rgba(26, 31, 58, 0.06);
+        white-space: normal;
+    }
+
+    .nav-dropdown.open {
+        padding: 8px 0;
+         max-height: 500px;
+    }
+
+    .nav-links li:last-child a {
+        border-bottom: none;
+    }
+
+    .nav-links li a:hover,
+    .nav-links li.active a {
+        background: rgba(249, 204, 2, 0.12);
+    }
+
+    /* Active indicator = left bar */
+    .nav-links li.active a::after {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: auto;
+        width: 3px;
+        height: auto;
+        border-radius: 0 2px 2px 0;
+    }
+}
+
+
+/* =============================================
+   NAVBAR — SMALL PHONE (≤ 480px)
+   ============================================= */
+
+@media (max-width: 480px) {
+
+    .nav-brand-name {
+        font-size: 10.5px;
+    }
+
+    .nav-brand-name br {
+        display: none;
+    }
+
+    .nav-brand-name span {
+        font-size: 7.5px;
+    }
+
+    .nav-logo {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
+/* =============================================
+   NAVBAR — EXTRA SMALL (≤ 360px)
+   ============================================= */
+
+@media (max-width: 360px) {
+
+    .nav-brand-name {
+        display: none; /* logo only */
+    }
+
+    .nav-top {
+        grid-template-columns: 38px auto auto;
+    }
+}
 /* ══════════════════════════════
     RESPONSIVE BREAKPOINTS
 ══════════════════════════════ */
@@ -836,14 +1004,6 @@ section {
 /* ── TABLET (max 1024px) ── */
 @media (max-width: 1024px) {
 
-    /* Navbar */
-    .nav-top {
-        padding: 16px 24px;
-    }
-
-    .nav-brand {
-        left: 50%;
-    }
 
     /* Hero */
     .sl-hero-inner {
@@ -890,48 +1050,6 @@ section {
 /* ── MOBILE LARGE (max 768px) ── */
 @media (max-width: 768px) {
 
-    /* Navbar */
-    .nav-top {
-        padding: 14px 16px;
-    }
-
-    .nav-brand {
-        position: static;
-        transform: none;
-        left: auto;
-    }
-
-    .nav-logo {
-        width: 42px;
-        height: 42px;
-    }
-
-    .nav-brand-name {
-        font-size: 13px;
-    }
-
-    .nav-socials {
-        gap: 10px;
-    }
-
-    .nav-socials i {
-        font-size: 17px;
-    }
-
-    .nav-dropdown.open {
-        max-height: 260px;
-    }
-
-    .nav-links {
-        flex-wrap: wrap;
-        padding: 6px 12px;
-        justify-content: flex-start;
-    }
-
-    .nav-links li a {
-        padding: 9px 10px;
-        font-size: 11px;
-    }
 
     /* Hero */
     .sl-hero {

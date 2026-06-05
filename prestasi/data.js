@@ -382,7 +382,7 @@ SMA Santo Kristoforus berhasil meraih prestasi membanggakan di ajang School of C
 Tim Paduan Suara Cantus Orbis SMA Santo Kristoforus I berhasil meraih prestasi membanggakan di ajang FESPARANI 2025 yang diselenggarakan di SMA Tarakanita Gading Serpong pada 22 Maret 2025. Tim meraih Juara Harapan, menunjukkan dedikasi, kerja keras, serta semangat juang tinggi dalam berkompetisi di bidang seni dan budaya. Prestasi ini menjadi bukti bahwa siswa SMA Santo Kristoforus I mampu berprestasi dan bersaing secara kompetitif di berbagai ajang.`,
     foto: "img/15.jpeg",
     penyelenggara: "MPK-KAJ",
-    juara: "Medali Emas & Perunggu",
+    juara: "Juara Harapan 1",
     tanggal: "22 Maret",
     tahun: "2025",
     tingkat: "provinsi",
